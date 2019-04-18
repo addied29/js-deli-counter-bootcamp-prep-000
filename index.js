@@ -18,8 +18,8 @@ function currentLine(katzDeliLine){
   if (katzDeliLine.length === 0)
   return ('The line is currently empty.')
   else{
-    for (i=0; i>katzDeliLine.length; i++) {
-      katzDeliLine[i] = ""+ ${i}"."${katzDeliLine}
+    for (i=0; i<katzDeliLine.length; i++) {
+     var katzDeliLine[i] = ""+ ${i}"."${katzDeliLine}
     }
   return (`The line is currently: ${katzDeliLine}` )
   }
